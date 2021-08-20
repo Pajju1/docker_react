@@ -7,6 +7,6 @@ before_install :
   - docker build -t pajju1/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true pajju1/docker-react npm run test
+  - docker run -e CI=true pajju1/docker_react npm run test
 
 language: generic 
